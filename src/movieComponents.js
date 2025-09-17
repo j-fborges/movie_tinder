@@ -77,7 +77,7 @@ function trimMovieDescription() {
   const overview = document.getElementById("movieOverview");
   const overviewWidth = overview.offsetWidth;
   let overviewText = overview.innerHTML;
-  if (overview.offsetHeight > 400) {
+  if (overview.offsetHeight > 300) {
     let truncatedText = truncateText(
       overviewText,
       overviewWidth > 250 ? 300 : 200

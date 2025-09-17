@@ -32,7 +32,7 @@ const getMovies = async () => {
   const selectedGenre = getSelectedGenre();
   const requestParams = "?with_genres=" + selectedGenre;
 
-  const urlToFetch = tmdbBaseUrl + discoverMovieEndpoint;
+  const urlToFetch = tmdbBaseUrl + discoverMovieEndpoint + requestParams;
 
   try {
     const response = await fetch(urlToFetch, options);

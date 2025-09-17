@@ -86,7 +86,7 @@ img#moviePoster {
 }
 
 #movieOverview{
-    max-height: 350px;
+    max-height: 300px;
     overflow: hidden;
 }
 
