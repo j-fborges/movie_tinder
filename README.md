@@ -55,4 +55,4 @@ Rode o servidor local:
 - **Parcel**
 - **CSS**
 
-- **Componentização** simples através de Javascript e manipulação direta do **DOM**
+- **Componentização** dinâmica simples através de Javascript e manipulação direta do **DOM**
