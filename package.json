@@ -1,0 +1,17 @@
+{
+  "name": "movie_finder",
+  "version": "1.0.0",
+  "description": "A quick project for liking or disliking random movies from tmdb REST API",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "j_fborges",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^2.14.0"
+  }
+}
